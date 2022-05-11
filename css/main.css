@@ -677,10 +677,6 @@ img {
   display: block;
 }
 
-.work-principles__item:not(:last-child) {
-  margin-bottom: 30px;
-}
-
 .work-principles__icon {
   display: flex;
   justify-content: center;
@@ -709,6 +705,9 @@ img {
 }
 
 @media screen and (max-width: 767px) {
+  .work-principles__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
   .subtitle {
     text-align: center;
   }
