@@ -1,6 +1,6 @@
 .social-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
   
 .social-list__link {
@@ -21,4 +21,9 @@
 .social-list__link:hover .social-list__icon,
 .social-list__link:focus .social-list__icon {
     fill: var(--secondary-text-color);
+}
+@media screen and (min-width: 480px) {
+    .social-list {
+        justify-content: space-between;
+    }
 }
